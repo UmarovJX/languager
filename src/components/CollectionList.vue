@@ -28,11 +28,13 @@
 </template>
 
 <script setup>
-import { collections, currentCollection, practiceMode } from '../stores'
+import { useRouter } from 'vue-router'
+import { collections } from '../stores'
+
+const router = useRouter()
 
 const selectCollection = (collection) => {
-  practiceMode.value = null
-  currentCollection.value = collection
+  router.push({ name: 'ModeSelection', params: { collectionId: collection.id } })
 }
 </script>
 

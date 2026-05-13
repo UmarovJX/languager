@@ -7,45 +7,33 @@
           <p class="subtitle">{{ $t('subtitle') }}</p>
         </div>
 
-        <button class="settings-button" @click="toggleSettings">
+        <button class="settings-button" @click="openSettings">
           {{ $t('settings') }}
         </button>
       </div>
     </header>
 
     <main class="app-main">
-      <SettingsScreen v-if="showSettings" @close="toggleSettings" />
-      <template v-else>
-        <CollectionList v-if="!currentCollection" />
-        <PracticeModeSelector v-else-if="!practiceMode" />
-        <PracticeScreen v-else-if="practiceMode === 'flashcard'" />
-        <TypePracticeScreen v-else-if="practiceMode === 'typing'" />
-        <MultipleChoicePracticeScreen v-else-if="practiceMode === 'multipleChoice'" />
-      </template>
+      <router-view />
     </main>
   </div>
 </template>
 
 <script setup>
-import { ref, watch } from 'vue'
+import { watch } from 'vue'
+import { useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
-import { currentCollection, appLanguage, practiceMode } from './stores'
-import CollectionList from './components/CollectionList.vue'
-import PracticeScreen from './components/PracticeScreen.vue'
-import TypePracticeScreen from './components/TypePracticeScreen.vue'
-import MultipleChoicePracticeScreen from './components/MultipleChoicePracticeScreen.vue'
-import PracticeModeSelector from './components/PracticeModeSelector.vue'
-import SettingsScreen from './components/SettingsScreen.vue'
+import { appLanguage } from './stores'
 
-const showSettings = ref(false)
+const router = useRouter()
 const { locale } = useI18n()
 
 watch(appLanguage, (value) => {
   locale.value = value
 }, { immediate: true })
 
-const toggleSettings = () => {
-  showSettings.value = !showSettings.value
+const openSettings = () => {
+  router.push({ name: 'Settings' })
 }
 </script>
 

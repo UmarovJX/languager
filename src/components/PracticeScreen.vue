@@ -55,8 +55,10 @@
 
 <script setup>
 import { ref, computed, watch } from 'vue'
+import { useRouter } from 'vue-router'
 import { currentCollection, practiceMode } from '../stores'
 
+const router = useRouter()
 const currentIndex = ref(0)
 const isFlipped = ref(false)
 const cards = ref([])
@@ -115,8 +117,8 @@ const previousCard = async () => {
 }
 
 const goBack = () => {
-  currentCollection.value = null
   practiceMode.value = null
+  router.push({ name: 'ModeSelection', params: { collectionId: currentCollection.value?.id } })
   currentIndex.value = 0
   cards.value = []
   isFlipped.value = false

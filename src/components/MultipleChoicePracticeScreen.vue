@@ -73,9 +73,11 @@
 
 <script setup>
 import { ref, computed, watch } from 'vue'
+import { useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { currentCollection, practiceMode } from '../stores'
 
+const router = useRouter()
 const { t } = useI18n()
 const currentIndex = ref(0)
 const cards = ref([])
@@ -195,8 +197,8 @@ const restartPractice = () => {
 }
 
 const goBack = () => {
-  currentCollection.value = null
   practiceMode.value = null
+  router.push({ name: 'ModeSelection', params: { collectionId: currentCollection.value?.id } })
   currentIndex.value = 0
   selectedAnswer.value = null
   score.value = 0

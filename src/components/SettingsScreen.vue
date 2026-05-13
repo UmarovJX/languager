@@ -1,7 +1,7 @@
 <template>
   <div class="settings-screen">
     <div class="settings-header">
-      <button class="close-button" @click="$emit('close')">{{ $t('back') }}</button>
+      <button class="close-button" @click="closeSettings">{{ $t('back') }}</button>
       <h2>{{ $t('settingsTitle') }}</h2>
     </div>
 
@@ -19,9 +19,11 @@
 
 <script setup>
 import { computed } from 'vue'
+import { useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { appLanguage } from '../stores'
 
+const router = useRouter()
 const { locale, t } = useI18n()
 
 const languageOptions = computed(() => [
@@ -37,6 +39,14 @@ const selectedLanguage = computed({
     locale.value = value
   }
 })
+
+const closeSettings = () => {
+  if (window.history.state && window.history.state.back) {
+    router.back()
+  } else {
+    router.push({ name: 'Home' })
+  }
+}
 </script>
 
 <style scoped>

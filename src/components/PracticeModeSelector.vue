@@ -27,15 +27,17 @@
 </template>
 
 <script setup>
-import { currentCollection, practiceMode } from '../stores'
+import { useRouter } from 'vue-router'
+import { currentCollection } from '../stores'
+
+const router = useRouter()
 
 const selectMode = (mode) => {
-  practiceMode.value = mode
+  router.push({ path: `/collection/${currentCollection.value.id}/practice/${mode}` })
 }
 
 const goBack = () => {
-  currentCollection.value = null
-  practiceMode.value = null
+  router.push({ name: 'Home' })
 }
 </script>
 
