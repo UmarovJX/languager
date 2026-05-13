@@ -1,0 +1,122 @@
+{
+    "id": 2,
+    "name": "Урок 2",
+    "language": "Uzbek",
+    "cards": [
+        {
+            "id": 1,
+            "front": "O‘ylamoq",
+            "back": "Думать"
+        },
+        {
+            "id": 2,
+            "front": "Unutmoq",
+            "back": "Забыть"
+        },
+        {
+            "id": 3,
+            "front": "Ko‘rmoq",
+            "back": "Видеть"
+        },
+        {
+            "id": 4,
+            "front": "Kechirasiz",
+            "back": "Извините"
+        },
+        {
+            "id": 5,
+            "front": "Sevmoq",
+            "back": "Любить"
+        },
+        {
+            "id": 6,
+            "front": "Turmoq",
+            "back": "Стоить"
+        },
+        {
+            "id": 7,
+            "front": "Qolmoq",
+            "back": "Остаться"
+        },
+        {
+            "id": 8,
+            "front": "Chiqmoq",
+            "back": "Выйти"
+        },
+        {
+            "id": 9,
+            "front": "Sanamoq",
+            "back": "Считать"
+        },
+        {
+            "id": 10,
+            "front": "Tomon",
+            "back": "Сторона"
+        },
+        {
+            "id": 11,
+            "front": "Dunyo",
+            "back": "Мир"
+        },
+        {
+            "id": 12,
+            "front": "Sifat",
+            "back": "Качество"
+        },
+        {
+            "id": 13,
+            "front": "Harakat",
+            "back": "Действие"
+        },
+        {
+            "id": 14,
+            "front": "Til",
+            "back": "Язык"
+        },
+        {
+            "id": 15,
+            "front": "Maqsad",
+            "back": "Цель"
+        },
+        {
+            "id": 16,
+            "front": "Menga",
+            "back": "Мне"
+        },
+        {
+            "id": 17,
+            "front": "Senga",
+            "back": "Тебе"
+        },
+        {
+            "id": 18,
+            "front": "Unga (м.р.)",
+            "back": "Ему"
+        },
+        {
+            "id": 19,
+            "front": "Unga (ж.р.)",
+            "back": "Ей"
+        },
+        {
+            "id": 20,
+            "front": "Bizga",
+            "back": "Нам"
+        },
+        {
+            "id": 21,
+            "front": "Sizga",
+            "back": "Вам"
+        },
+        {
+            "id": 22,
+            "front": "Ularga",
+            "back": "Им"
+        },
+        {
+            "id": 23,
+            "front": "Kimga?",
+            "back": "Кому?"
+        }
+    ]
+}

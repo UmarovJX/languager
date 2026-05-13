@@ -1,0 +1,21 @@
+{
+  "subtitle": "Practica idiomas con tarjetas didácticas",
+  "settings": "Ajustes",
+  "back": "Volver",
+  "selectCollection": "Selecciona una colección para practicar",
+  "cardsLabel": "Tarjetas",
+  "startPractice": "Iniciar práctica",
+  "answer": "Respuesta",
+  "question": "Pregunta",
+  "clickHint": "Haz clic en la tarjeta para ver la respuesta",
+  "previous": "← Anterior",
+  "next": "Siguiente →",
+  "completionMessage": "🎉 ¡Buen trabajo! Has revisado todas las tarjetas de esta colección.",
+  "noCards": "No hay tarjetas en esta colección todavía.",
+  "settingsTitle": "Ajustes de la app",
+  "appLanguage": "Idioma de la app",
+  "languageHelp": "Elige el idioma de la interfaz.",
+  "languageEnglish": "English",
+  "languageSpanish": "Español",
+  "languageFrench": "Français"
+}

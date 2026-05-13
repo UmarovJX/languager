@@ -1,0 +1,122 @@
+{
+    "id": 1,
+    "name": "Урок 1",
+    "language": "Uzbek",
+    "cards": [
+        {
+            "id": 1,
+            "front": "Salom!",
+            "back": "Привет!"
+        },
+        {
+            "id": 2,
+            "front": "Non",
+            "back": "Хлеб"
+        },
+        {
+            "id": 3,
+            "front": "Inson",
+            "back": "Человек"
+        },
+        {
+            "id": 4,
+            "front": "Vaqt",
+            "back": "Время"
+        },
+        {
+            "id": 5,
+            "front": "kun",
+            "back": "День"
+        },
+        {
+            "id": 6,
+            "front": "so'z",
+            "back": "Слово"
+        },
+        {
+            "id": 7,
+            "front": "uy",
+            "back": "Дом"
+        },
+        {
+            "id": 8,
+            "front": "yangi",
+            "back": "Новый"
+        },
+        {
+            "id": 9,
+            "front": "katta",
+            "back": "Большой"
+        },
+        {
+            "id": 10,
+            "front": "kichik",
+            "back": "Маленький"
+        },
+        {
+            "id": 11,
+            "front": "mening",
+            "back": "Мой"
+        },
+        {
+            "id": 12,
+            "front": "sening",
+            "back": "Твой"
+        },
+        {
+            "id": 13,
+            "front": "o'zining",
+            "back": "Свой"
+        },
+        {
+            "id": 14,
+            "front": "kimning?",
+            "back": "Чей?"
+        },
+        {
+            "id": 15,
+            "front": "U (м.р.)",
+            "back": "Он"
+        },
+        {
+            "id": 16,
+            "front": "U (ж.р.)",
+            "back": "Она"
+        },
+        {
+            "id": 17,
+            "front": "Ular",
+            "back": "Они"
+        },
+        {
+            "id": 18,
+            "front": "ot",
+            "back": "Существительное"
+        },
+        {
+            "id": 19,
+            "front": "Dengiz",
+            "back": "Море"
+        },
+        {
+            "id": 20,
+            "front": "Bulut",
+            "back": "Облако"
+        },
+        {
+            "id": 21,
+            "front": "Tabiat",
+            "back": "Природа"
+        },
+        {
+            "id": 22,
+            "front": "Do'st",
+            "back": "Друг"
+        },
+        {
+            "id": 23,
+            "front": "Dugona",
+            "back": "Подруга"
+        }
+    ]
+}

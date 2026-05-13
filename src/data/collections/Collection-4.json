@@ -1,0 +1,97 @@
+{
+    "id": 4,
+    "name": "Урок 4",
+    "language": "Uzbek",
+    "cards": [
+        {
+            "id": 1,
+            "front": "Tong",
+            "back": "Утро"
+        },
+        {
+            "id": 2,
+            "front": "Nonushta",
+            "back": "Завтрак"
+        },
+        {
+            "id": 3,
+            "front": "Sharbat",
+            "back": "Сок"
+        },
+        {
+            "id": 4,
+            "front": "Yog'",
+            "back": "Масло"
+        },
+        {
+            "id": 5,
+            "front": "Olib yurmoq",
+            "back": "Нести"
+        },
+        {
+            "id": 6,
+            "front": "Turmoq",
+            "back": "Стоять"
+        },
+        {
+            "id": 7,
+            "front": "Nonushta qilmoq",
+            "back": "Завтракать"
+        },
+        {
+            "id": 8,
+            "front": "O'tirmoq",
+            "back": "Сидеть"
+        },
+        {
+            "id": 9,
+            "front": "Yotmoq",
+            "back": "Лежать"
+        },
+        {
+            "id": 10,
+            "front": "Charchamoq",
+            "back": "Устать"
+        },
+        {
+            "id": 11,
+            "front": "Azoblanmoq",
+            "back": "Страдать"
+        },
+        {
+            "id": 12,
+            "front": "O'rganmoq",
+            "back": "Изучать"
+        },
+        {
+            "id": 13,
+            "front": "Chetlamoq",
+            "back": "Отойти"
+        },
+        {
+            "id": 14,
+            "front": "Sezmoq",
+            "back": "Ощущать"
+        },
+        {
+            "id": 15,
+            "front": "Egmoq / o'zgartirmoq",
+            "back": "Склонять"
+        },
+        {
+            "id": 16,
+            "front": "Qutqarmoq",
+            "back": "Спасать"
+        },
+        {
+            "id": 17,
+            "front": "Bolalar",
+            "back": "Ребята"
+        },
+        {
+            "id": 18,
+            "front": "Faqat",
+            "back": "Только"
+        }
+    ]
+}

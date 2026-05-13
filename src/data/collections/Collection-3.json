@@ -1,0 +1,102 @@
+{
+    "id": 3,
+    "name": "Урок 3",
+    "language": "Uzbek",
+    "cards": [
+        {
+            "id": 1,
+            "front": "Hozir",
+            "back": "Сейчас"
+        },
+        {
+            "id": 2,
+            "front": "Tinglamoq",
+            "back": "Слушать"
+        },
+        {
+            "id": 3,
+            "front": "Meni",
+            "back": "Меня"
+        },
+        {
+            "id": 4,
+            "front": "Seni",
+            "back": "Тебя"
+        },
+        {
+            "id": 5,
+            "front": "Uni (ж.р)",
+            "back": "Её"
+        },
+        {
+            "id": 6,
+            "front": "Uni (м.р.)",
+            "back": "Его"
+        },
+        {
+            "id": 7,
+            "front": "Tormoq",
+            "back": "Угадать"
+        },
+        {
+            "id": 8,
+            "front": "Bajarmoq",
+            "back": "Выполнять"
+        },
+        {
+            "id": 9,
+            "front": "Eslamoq",
+            "back": "Помнить"
+        },
+        {
+            "id": 10,
+            "front": "Muhokama qilmoq",
+            "back": "Обсуждать"
+        },
+        {
+            "id": 11,
+            "front": "Yosh",
+            "back": "Возраст"
+        },
+        {
+            "id": 12,
+            "front": "Yutmoq",
+            "back": "Выиграть"
+        },
+        {
+            "id": 13,
+            "front": "Malika",
+            "back": "Принцесса"
+        },
+        {
+            "id": 14,
+            "front": "Yozib olmoq",
+            "back": "Записать"
+        },
+        {
+            "id": 15,
+            "front": "Sovg'a qilmoq",
+            "back": "Подарить"
+        },
+        {
+            "id": 16,
+            "front": "Qo'l",
+            "back": "Рука"
+        },
+        {
+            "id": 17,
+            "front": "Ish",
+            "back": "Работа"
+        },
+        {
+            "id": 18,
+            "front": "Joy",
+            "back": "Место"
+        },
+        {
+            "id": 19,
+            "front": "Yuz",
+            "back": "Лицо"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "name": "Spanish Basics",
+    "language": "Spanish",
+    "cards": [
+      { "id": 1, "front": "Hello", "back": "Hola" },
+      { "id": 2, "front": "Thank you", "back": "Gracias" },
+      { "id": 3, "front": "Good morning", "back": "Buenos días" },
+      { "id": 4, "front": "How are you?", "back": "¿Cómo estás?" },
+      { "id": 5, "front": "Goodbye", "back": "Adiós" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "French Phrases",
+    "language": "French",
+    "cards": [
+      { "id": 1, "front": "Hello", "back": "Bonjour" },
+      { "id": 2, "front": "Thank you", "back": "Merci" },
+      { "id": 3, "front": "Please", "back": "S'il vous plaît" },
+      { "id": 4, "front": "Goodbye", "back": "Au revoir" }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "German Greetings",
+    "language": "German",
+    "cards": [
+      { "id": 1, "front": "Hello", "back": "Hallo" },
+      { "id": 2, "front": "Thank you", "back": "Danke" },
+      { "id": 3, "front": "Yes", "back": "Ja" },
+      { "id": 4, "front": "No", "back": "Nein" }
+    ]
+  }
+]

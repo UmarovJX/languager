@@ -1,0 +1,21 @@
+{
+  "subtitle": "Pratiquez les langues avec des cartes mémoire",
+  "settings": "Paramètres",
+  "back": "Retour",
+  "selectCollection": "Sélectionnez une collection à pratiquer",
+  "cardsLabel": "Cartes",
+  "startPractice": "Commencer",
+  "answer": "Réponse",
+  "question": "Question",
+  "clickHint": "Cliquez sur la carte pour afficher la réponse",
+  "previous": "← Précédent",
+  "next": "Suivant →",
+  "completionMessage": "🎉 Bravo ! Vous avez revu toutes les cartes de cette collection.",
+  "noCards": "Aucune carte dans cette collection pour le moment.",
+  "settingsTitle": "Paramètres de l'application",
+  "appLanguage": "Langue de l'application",
+  "languageHelp": "Choisissez la langue de l'interface.",
+  "languageEnglish": "English",
+  "languageSpanish": "Español",
+  "languageFrench": "Français"
+}
