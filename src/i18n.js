@@ -12,7 +12,7 @@ const messages = {
 export default createI18n({
   legacy: false,
   globalInjection: true,
-  locale: 'en',
+  locale: 'uz',
   fallbackLocale: 'en',
   messages
 })
